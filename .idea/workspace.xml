@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f0b696-215e-49d9-8211-4b00819a79e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/lambda01day/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/streamApi/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,29 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test03.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/lambda01day/Test03.java">
+    <leaf>
+      <file leaf-file-name="Test01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/streamApi/Test01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/lambda01day/Test02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/lambda01day/Test03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/streamApi/Test01.java" />
       </list>
     </option>
   </component>
@@ -88,6 +74,17 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="java8test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="39" />
     <option name="y" value="8" />
@@ -103,8 +100,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,12 +140,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java8test" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda01day" type="462c0819:PsiDirectoryNode" />
+              <item name="streamApi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +170,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test03">
+  <component name="RunManager" selected="Application.Test01 (1)">
+    <configuration name="Test01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gl.java8test.streamApi.Test01" />
+      <module name="java8test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gl.java8test.streamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gl.java8test.lambda01day.Test01" />
       <module name="java8test" />
@@ -226,6 +234,10 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Java8testApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java8test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gl.java8test.Java8testApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -249,12 +261,15 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Java8testApplication" />
       <item itemvalue="Application.Test01" />
       <item itemvalue="Application.Test02" />
       <item itemvalue="Application.Test03" />
+      <item itemvalue="Application.Test01 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test01 (1)" />
         <item itemvalue="Application.Test03" />
         <item itemvalue="Application.Test02" />
         <item itemvalue="Application.Test01" />
@@ -273,7 +288,8 @@
       <updated>1529204668341</updated>
       <workItem from="1529204669775" duration="4018000" />
       <workItem from="1529237580311" duration="3799000" />
-      <workItem from="1529326861633" duration="4069000" />
+      <workItem from="1529326861633" duration="4791000" />
+      <workItem from="1529417989772" duration="1994000" />
     </task>
     <task id="LOCAL-00001" summary="四大函数式接口的测试编写">
       <created>1529246620885</created>
@@ -282,11 +298,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529246620886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="方法引用，构造器引用，数组引用">
+      <created>1529331533166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529331533166</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" java8的pdf文件">
+      <created>1529332091893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529332091893</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11886000" />
+    <option name="totallyTimeSpent" value="14602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="8" width="1889" height="1027" extended-state="0" />
@@ -299,15 +329,15 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32968834" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22072072" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38513514" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25533077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2252597" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -331,7 +361,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="四大函数式接口的测试编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="四大函数式接口的测试编写" />
+    <MESSAGE value="方法引用，构造器引用，数组引用" />
+    <MESSAGE value=" java8的pdf文件" />
+    <option name="LAST_COMMIT_MESSAGE" value=" java8的pdf文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/lambda01day/Test02.java">
@@ -379,9 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="2668" column="33" lean-forward="true" selection-start-line="2668" selection-start-column="33" selection-end-line="2668" selection-end-column="33" />
-          <folding>
-            <element signature="e#104730#104731#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,12 +454,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/lambda01day/Test03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="291">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#755#756#0" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="5004" column="5" lean-forward="true" selection-start-line="5004" selection-start-column="5" selection-end-line="5004" selection-end-column="5" />
+          <folding>
+            <element signature="e#223144#223145#0" expanded="true" />
+            <element signature="e#223197#223198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/streamApi/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
           </folding>
         </state>
       </provider>
