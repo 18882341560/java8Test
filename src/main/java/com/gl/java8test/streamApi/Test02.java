@@ -128,8 +128,6 @@ public class Test02 {
             .flatMap(Test02::filterString);   //{  a,a,a ,b,b,b } 类似这样的效果,相当于 addAll(List)  这样的操作
 
         characterStream.forEach(System.out::println);
-
-
     }
 
     //将字符的每个元素添加到集合
@@ -141,6 +139,33 @@ public class Test02 {
         return list.stream();
     }
 
+    /**
+     *   排序
+     *   sorted() --自然排序  Comparable
+     *   sorted( Comparator com ) --自定义排序
+     *
+     */
+
+
+    public static void test7(){
+        List<String> list = Arrays.asList("eee","bbb","aaa","ccc");
+        list.stream()
+            .sorted()
+            .forEach(System.out::println);
+
+        System.out.println("-------------------------------------");
+
+        userList.stream()
+                .sorted( (e1,e2) -> {
+                    if(e1.getAge().equals(e2.getAge())){
+                        return e1.getName().compareTo(e2.getName());
+                    }else {
+                        return e1.getAge().compareTo(e2.getAge());
+                    }
+                })
+                .forEach(System.out::println);
+    }
+
 
 
     public static void main(String[] args) {
@@ -149,7 +174,8 @@ public class Test02 {
 //        test3();
 //        test4();
 //        test5();
-        test6();
+//        test6();
+        test7();
     }
 
 
