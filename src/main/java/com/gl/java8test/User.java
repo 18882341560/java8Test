@@ -1,11 +1,13 @@
 package com.gl.java8test;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
  * create gl  2018/6/18
  **/
 @Data
+@AllArgsConstructor
 public class User {
     private String name;
     private Integer age;
