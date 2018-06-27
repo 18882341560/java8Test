@@ -52,12 +52,49 @@ public class TestOptional {
 
         Optional<String> s = optionalUser.flatMap(e -> Optional.of(e.getName())); // 返回值必须是Optional
         System.out.println(s.get());
+    }
 
+    /**
+     *  获取一个男人心中女神的名字
+     */
+    public static void test5(){
+       Man man = new Man();
+       String name = getName(man);
+       System.out.println(name);
+    }
 
+    // 以前的解决空指针异常
+    public static String getName(Man man){
+        if(man != null){
+           Godness godness = man.getGodness();
+           if(godness != null){
+               return godness.getName();
+           }
+        }
+        return "昌老师";
+    }
+
+    // 这样就避免了空指针异常
+    public static void test6(){
+//        Optional<Godness> godness = Optional.ofNullable(null);
+        Optional<Godness> godness = Optional.ofNullable(new Godness("波老师"));
+//        Optional<NewMan> newMan = Optional.ofNullable(null);
+        Optional<NewMan> newMan = Optional.ofNullable(new NewMan(godness));
+        System.out.println(getNewName(newMan));
+    }
+
+    // 改造 得到女神的名字
+    public static String getNewName(Optional<NewMan> man){
+       return man.orElse(new NewMan())
+           .getGodness()
+           .orElse(new Godness("昌老师"))
+           .getName();
     }
 
     public static void main(String[] args) {
-       test3();
+//       test3();
+//        test5();
+        test6();
     }
 
 
