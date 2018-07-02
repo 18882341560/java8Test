@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f0b696-215e-49d9-8211-4b00819a79e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/TestAnno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDateTime.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +19,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestLocalDateTime.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDateTime.java">
+      <file leaf-file-name="TestAnno.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/TestAnno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="119" column="39" lean-forward="true" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
+            <state relative-caret-position="145">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyAnnotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyAnnotations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,6 +62,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -68,6 +96,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestTime01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDateTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/TestAnno.java" />
       </list>
     </option>
   </component>
@@ -155,15 +186,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java8test" type="462c0819:PsiDirectoryNode" />
-              <item name="date" type="462c0819:PsiDirectoryNode" />
+              <item name="anno" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLocalDateTime">
+  <component name="RunManager" selected="Application.TestAnno">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gl.java8test.defaultday.Test" />
       <module name="java8test" />
@@ -198,13 +229,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gl.java8test.streamApi.Test04" />
+    <configuration name="TestAnno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gl.java8test.anno.TestAnno" />
       <module name="java8test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gl.java8test.streamApi.*" />
+          <option name="PATTERN" value="com.gl.java8test.anno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,19 +320,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Java8testApplication" />
-      <item itemvalue="Application.Test04" />
       <item itemvalue="Application.TestOptional" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestTime01" />
       <item itemvalue="Application.TestLocalDateTime" />
+      <item itemvalue="Application.TestAnno" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAnno" />
         <item itemvalue="Application.TestLocalDateTime" />
         <item itemvalue="Application.TestTime01" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestOptional" />
-        <item itemvalue="Application.Test04" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +357,8 @@
       <workItem from="1530109728258" duration="3109000" />
       <workItem from="1530194871376" duration="2804000" />
       <workItem from="1530281001799" duration="3399000" />
-      <workItem from="1530423141594" duration="3663000" />
+      <workItem from="1530423141594" duration="4304000" />
+      <workItem from="1530538436364" duration="3734000" />
     </task>
     <task id="LOCAL-00001" summary="四大函数式接口的测试编写">
       <created>1529246620885</created>
@@ -398,14 +430,22 @@
       <option name="project" value="LOCAL" />
       <updated>1530197986537</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="时间练习">
+      <created>1530431803328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530431803328</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42626000" />
+    <option name="totallyTimeSpent" value="47001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="8" width="1889" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,12 +457,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32968834" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2668919" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2725225" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1831602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18534718" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,37 +495,10 @@
     <MESSAGE value="Optional" />
     <MESSAGE value="Optional 实例的编写；接口中的默认方法，静态方法" />
     <MESSAGE value="传统时间与java8时间Api 对比" />
-    <option name="LAST_COMMIT_MESSAGE" value="传统时间与java8时间Api 对比" />
+    <MESSAGE value="时间练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="时间练习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/defaultday/DefaultFun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/defaultday/MyFun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/defaultday/DefaultFun1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/optional/NewMan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/optional/Man.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -839,8 +852,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/date/TestLocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="119" column="39" lean-forward="true" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
+        <state relative-caret-position="355">
+          <caret line="166" column="67" selection-start-line="166" selection-start-column="67" selection-end-line="166" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/MyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gl/java8test/anno/TestAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

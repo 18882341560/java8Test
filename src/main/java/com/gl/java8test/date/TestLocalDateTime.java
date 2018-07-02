@@ -1,7 +1,10 @@
 package com.gl.java8test.date;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
 import java.time.temporal.TemporalAdjusters;
+import java.util.Set;
 
 /**
  * create gl  2018/6/29
@@ -128,12 +131,53 @@ public class TestLocalDateTime {
     }
 
 
+    /**
+     * 时间格式化
+     */
+    public static void test5(){
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ISO_DATE;
+        LocalDateTime ldt = LocalDateTime.now();
+        String date = ldt.format(dateTimeFormatter);
+        System.out.println(date);
+
+        System.out.println("--------------------------------------------");
+
+        DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String format = timeFormatter.format(ldt);
+        System.out.println(format);
+
+        System.out.println("--------------------------------------------");
+
+        LocalDateTime parse = LocalDateTime.parse(format,timeFormatter);
+        System.out.println(parse);
+    }
+
+    /**
+     * 带时区的 时间  ZonedDate,ZonedTime,ZonedDateTime
+     */
+    public static void test6(){
+        Set<String> zoneIds = ZoneId.getAvailableZoneIds();   // 支持的地区
+//        zoneIds.forEach(System.out::println);
+
+        System.out.println("---------------------------------------");
+
+        LocalDateTime localDateTime = LocalDateTime.now(ZoneId.of("Europe/Belgrade"));
+        System.out.println(localDateTime);
+        ZonedDateTime zonedDateTime = localDateTime.atZone(ZoneId.of("Europe/Belgrade"));
+        System.out.println(zonedDateTime);  // + ...  与 UTC相比 差多少时差
+
+
+    }
+
+
     public static void main(String[] args) throws InterruptedException {
 //         test();
 //        test1();
 //        test2();
 //        test3();
-        test4();
+//        test4();
+//        test5();
+        test6();
     }
 
 
